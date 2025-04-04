@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Iran;
+    src: url(./Fonts/Iranian\ Sans.ttf);
+}
+@font-face {
+    font-family: babas-neue;
+    src: url(./Fonts/Bebas\ Neue\ Pro\ Bold.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Iran;
+    
+}
+nav .title{
+    font-family: babas-neue;
+}
+
+nav .Search-box input:focus{
+    width: 100%;
+}
+
+nav .login-btn a{
+    
+    box-shadow: -2px 3px 8px 2px rgb(88, 73, 52);
+}
+nav .login-btn :active{
+    background-color: #4D4730;
+}
