@@ -3,34 +3,36 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: Iran;
-    src: url(./Fonts/Iranian\ Sans.ttf);
+  font-family: Iran;
+  src: url(../public/Fonts/Iranian\ Sans.ttf);
 }
 @font-face {
-    font-family: babas-neue;
-    src: url(./Fonts/Bebas\ Neue\ Pro\ Bold.otf);
+  font-family: babas-neue;
+  src: url(../public/Fonts/Bebas\ Neue\ Pro\ Bold.otf);
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: Iran;
-    
+body {
+  font-family: Iran;
 }
-nav .title{
-    font-family: babas-neue;
-}
-
-nav .Search-box input:focus{
-    width: 100%;
+nav .title {
+  font-family: babas-neue;
 }
 
-nav .login-btn a{
-    
-    box-shadow: -2px 3px 8px 2px rgb(88, 73, 52);
+nav .Search-box input:focus {
+  width: 100%;
 }
-nav .login-btn :active{
-    background-color: #4D4730;
+
+nav .login-btn a {
+  box-shadow: -2px 3px 8px 2px rgb(88, 73, 52);
+}
+nav .login-btn :active {
+  @apply bg-yellow-800 bg-opacity-80;
+}
+
+header .menu a{
+    @apply text-xs sm:text-sm md:text-base  font-semibold text-gray-700 hover:text-gray-800;
 }

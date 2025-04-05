@@ -31910,39 +31910,68 @@ video {
 @font-face {
   font-family: Iran;
 
-  src: url(./Fonts/Iranian\ Sans.ttf);
+  src: url(../public/Fonts/Iranian\ Sans.ttf);
 }
 
 @font-face {
   font-family: babas-neue;
 
-  src: url(./Fonts/Bebas\ Neue\ Pro\ Bold.otf);
+  src: url(../public/Fonts/Bebas\ Neue\ Pro\ Bold.otf);
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: Iran;
 }
 
-nav .title{
+nav .title {
   font-family: babas-neue;
 }
 
-nav .Search-box input:focus{
+nav .Search-box input:focus {
   width: 100%;
 }
 
-nav .login-btn a{
+nav .login-btn a {
   box-shadow: -2px 3px 8px 2px rgb(88, 73, 52);
 }
 
-nav .login-btn :active{
-  background-color: #4D4730;
+nav .login-btn :active {
+  --tw-bg-opacity: 1;
+  background-color: rgba(146, 64, 14, var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.8;
+}
+
+header .menu a{
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgba(55, 65, 81, var(--tw-text-opacity));
+}
+
+header .menu a:hover {
+  --tw-text-opacity: 1;
+  color: rgba(31, 41, 55, var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  header .menu a {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header .menu a {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media (min-width: 640px) {
