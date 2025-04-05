@@ -8,6 +8,9 @@ module.exports = {
         darkBrown: "#4D4730",
         middleBrown: "#805F37",
         brown: "#AC8A53",
+      },
+      fontFamily: {
+        sans: ["Iran", "yekan", "sans-serif"]
       }
     },
   },
