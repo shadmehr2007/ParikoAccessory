@@ -31947,12 +31947,27 @@ nav .login-btn :active {
   --tw-bg-opacity: 0.8;
 }
 
+header .menu{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.479);
+  line-height: normal;
+}
+
 header .menu a{
+  border-bottom-width: 2px;
+}
+
+header .menu a:hover {
+  --tw-border-opacity: 1;
+  border-color: rgba(77, 71, 48, var(--tw-border-opacity));
+}
+
+header .menu a {
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 600;
+  line-height: 1.5;
   --tw-text-opacity: 1;
-  color: rgba(55, 65, 81, var(--tw-text-opacity));
+  color: rgba(77, 71, 48, var(--tw-text-opacity));
 }
 
 header .menu a:hover {
@@ -31972,6 +31987,14 @@ header .menu a:hover {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+}
+
+.slider-btns .slider-btn:hover {
+  --tw-bg-opacity: 0.4;
+}
+
+.slider-btns .slider-btn:active{
+  --tw-bg-opacity: 0.2;
 }
 
 @media (min-width: 640px) {
