@@ -31910,13 +31910,13 @@ video {
 @font-face {
   font-family: Iran;
 
-  src: url(../public/Fonts/Iranian\ Sans.ttf);
+  src: url(./Fonts/Iranian\ Sans.ttf);
 }
 
 @font-face {
   font-family: babas-neue;
 
-  src: url(../public/Fonts/Bebas\ Neue\ Pro\ Bold.otf);
+  src: url(./Fonts/Bebas\ Neue\ Pro\ Bold.otf);
 }
 
 * {
