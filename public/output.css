@@ -31947,21 +31947,21 @@ nav .login-btn :active {
   --tw-bg-opacity: 0.8;
 }
 
-header .menu{
+header .menu, .products .header{
   border-bottom: 1px solid rgba(128, 128, 128, 0.479);
   line-height: normal;
 }
 
-header .menu a{
+header .menu a, .products .header a {
   border-bottom-width: 2px;
 }
 
-header .menu a:hover {
+header .menu a:hover, .products .header a:hover {
   --tw-border-opacity: 1;
   border-color: rgba(77, 71, 48, var(--tw-border-opacity));
 }
 
-header .menu a {
+header .menu a, .products .header a {
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 600;
@@ -31970,22 +31970,29 @@ header .menu a {
   color: rgba(77, 71, 48, var(--tw-text-opacity));
 }
 
-header .menu a:hover {
+header .menu a:hover, .products .header a:hover {
   --tw-text-opacity: 1;
   color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
-  header .menu a {
+  header .menu a, .products .header a {
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
 }
 
 @media (min-width: 768px) {
-  header .menu a {
+  header .menu a, .products .header a {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  header .menu a, .products .header a {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
