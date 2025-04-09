@@ -47,3 +47,25 @@ header .menu a , .products .header a{
 .slider-btns .slider-btn:active{
   @apply bg-opacity-20;
 }
+
+.products .images {
+  height: 50vh;
+}
+@media (min-width:640px) {
+  .products .images {
+    height: 50vh;
+  }
+  
+}
+@media  (min-width:768px) {
+  .products .images {
+    height: 60vh;
+  }
+  
+}
+@media  (min-width:1024px) {
+  .products .images {
+    height: 80vh;
+  }
+  
+}

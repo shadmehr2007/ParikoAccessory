@@ -8,6 +8,7 @@ module.exports = {
         darkBrown: "#4D4730",
         middleBrown: "#805F37",
         brown: "#AC8A53",
+        lightGray: "#858188",
       },
       fontFamily: {
         sans: ["Iran", "yekan", "sans-serif"]
