@@ -32166,6 +32166,14 @@ header .menu a:hover, .products .header a:hover {
   }
 }
 
+.owlProducts .card .titles .buyBtn{
+  transition: all 2s ease-in-out;
+}
+
+.owlProducts .card .titles .buyBtn:hover .buyText{
+  display: block;
+}
+
 .slider-btns .slider-btn:hover {
   --tw-bg-opacity: 0.4;
 }
