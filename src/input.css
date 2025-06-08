@@ -41,15 +41,56 @@ header .menu a , .products .header a{
   
     @apply leading-normal text-xs sm:text-sm md:text-base lg:text-lg border-b-2 hover:border-darkBrown  font-semibold text-darkBrown hover:text-gray-800;
 }
+
+
+/* card */
+.owlProducts .card{
+  box-shadow: 0px 0px 8px 2px  rgba(0, 0, 0, 0.493);
+  @apply  h-48 sm:h-56 lg:h-80 bg-white flex flex-col justify-between items-center rounded-md relative col-span-2 sm:col-span-1  px-3 py-4;
+
+
+}
+.owlProducts .card .image{
+  @apply flex justify-center items-center w-5/6 h-1/2  ;
+}
+.owlProducts .card .cardFeatures{
+  @apply text-xs  absolute left-2 top-2 flex justify-between items-center lg:text-xl w-full;
+}
+.owlProducts .card .cardFeatures .offer{
+  @apply text-xs text-white bg-red-600 px-1 py-1 rounded-lg mr-4 lg:text-sm lg:px-2;
+}
+.owlProducts .card .name{
+ @apply text-sm font-bold text-center sm:text-lg lg:text-2xl;
+}
+
+.owlProducts .card .titles{
+  @apply flex justify-between items-center  w-full;
+}
+
+.owlProducts .card .titles .price{
+  @apply text-xs sm:text-base;
+}
+
 .owlProducts .card .titles .buyBtn{
-  transition: all 2s ease-in-out;
+  @apply  duration-700 flex items-center justify-center bg-yellow-600 px-2 py-1 rounded-full  w-8 h-8 p-2 lg:w-12 lg:h-12;
+
+}
+
+.owlProducts .card .titles .buyBtn .buyText{
+  @apply  text-xs text-white sm:text-base hidden transition-all duration-1000;
+}
+
+
+.owlProducts .card .titles .buyBtn:hover{
+  @apply w-16 sm:w-20 lg:w-24  duration-700 justify-between;
 }
 
 .owlProducts .card .titles .buyBtn:hover .buyText{
+  transition-delay: 500ms;
   display: block;
   
 }
-
+/*------------------*/
 .slider-btns .slider-btn{
   @apply hover:bg-opacity-40;
 }
