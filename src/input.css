@@ -72,7 +72,7 @@ header .menu a , .products .header a{
 }
 
 .owlProducts .card .titles .buyBtn{
-  @apply  duration-700 flex items-center justify-center bg-yellow-600 px-2 py-1 rounded-full  w-8 h-8 p-2 lg:w-12 lg:h-12;
+  @apply  duration-700 flex items-center justify-center  px-2 py-1 rounded-full  w-8 h-8 p-2 lg:w-12 lg:h-12;
 
 }
 

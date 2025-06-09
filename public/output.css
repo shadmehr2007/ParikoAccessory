@@ -32297,8 +32297,6 @@ header .menu a:hover, .products .header a:hover {
   align-items: center;
   justify-content: center;
   border-radius: 9999px;
-  --tw-bg-opacity: 1;
-  background-color: rgba(217, 119, 6, var(--tw-bg-opacity));
   padding: 0.5rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
